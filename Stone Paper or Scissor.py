@@ -2,7 +2,7 @@ import random
 print("Welcome to Stone Paper Scissor Game ")
 un1=input("Enter Player name : ")
 un=un1.capitalize()
-g=int(input("Enter no. of games you want to play"))
+g=int(input("Enter no. of games you want to play : "))
 print(f"{un} Vs. Computer")
 print("-----------Let's Begin------------")
 a=["stone","paper","scissor"]
