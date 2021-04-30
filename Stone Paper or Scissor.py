@@ -2,13 +2,14 @@ import random
 print("Welcome to Stone Paper Scissor Game ")
 un1=input("Enter Player name : ")
 un=un1.capitalize()
+g=int(input("Enter no. of games you want to play"))
 print(f"{un} Vs. Computer")
 print("-----------Let's Begin------------")
 a=["stone","paper","scissor"]
 i=1
 user=0
 comp=0
-while(i<=10):
+while(i<=g):
     c = input("Enter a choice out of Stone Paper or Sissor : ")
     c1 = random.choice(a)
     c2=c.lower()
